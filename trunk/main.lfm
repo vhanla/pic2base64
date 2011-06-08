@@ -1,0 +1,207 @@
+object Form1: TForm1
+  Left = 142
+  Height = 520
+  Top = 121
+  Width = 1092
+  ActiveControl = btnCapture
+  Caption = 'Pic2Base64'
+  ClientHeight = 520
+  ClientWidth = 1092
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '0.9.28.2'
+  object lblJpegSettings: TLabel
+    Left = 984
+    Height = 18
+    Top = 232
+    Width = 102
+    Caption = 'JPEG compr %:'
+    DragCursor = crHandPoint
+    ParentColor = False
+  end
+  object lblSize: TLabel
+    Left = 989
+    Height = 18
+    Top = 368
+    Width = 32
+    Caption = 'Size:'
+    ParentColor = False
+  end
+  object lblLength: TLabel
+    Left = 989
+    Height = 18
+    Top = 384
+    Width = 51
+    Caption = 'Length:'
+    ParentColor = False
+  end
+  object btnCapture: TButton
+    Left = 992
+    Height = 25
+    Top = 8
+    Width = 91
+    Caption = '&Capture'
+    OnClick = btnCaptureClick
+    TabOrder = 0
+  end
+  object btnPaste: TButton
+    Left = 992
+    Height = 25
+    Top = 40
+    Width = 91
+    Caption = '&Pegar'
+    OnClick = btnPasteClick
+    TabOrder = 1
+  end
+  object btnConvert: TButton
+    Left = 989
+    Height = 25
+    Top = 336
+    Width = 91
+    Caption = '2 Base64'
+    OnClick = btnConvertClick
+    TabOrder = 2
+  end
+  object btnCopy: TButton
+    Left = 989
+    Height = 25
+    Top = 424
+    Width = 91
+    Caption = '2 Clipboard'
+    OnClick = btnCopyClick
+    TabOrder = 3
+  end
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 392
+    Top = 0
+    Width = 968
+    Caption = 'Picture'
+    ClientHeight = 373
+    ClientWidth = 964
+    TabOrder = 4
+    object Image1: TImage
+      Left = 6
+      Height = 344
+      Top = 7
+      Width = 936
+      OnMouseMove = Image1MouseMove
+      OnMouseUp = Image1MouseUp
+    end
+    object ScrollBar1: TScrollBar
+      Left = 6
+      Height = 15
+      Top = 351
+      Width = 936
+      PageSize = 0
+      TabOrder = 0
+      OnChange = ScrollBar1Change
+    end
+    object ScrollBar2: TScrollBar
+      Left = 942
+      Height = 345
+      Top = 6
+      Width = 15
+      Kind = sbVertical
+      PageSize = 0
+      TabOrder = 1
+      OnChange = ScrollBar2Change
+    end
+  end
+  object Memo1: TMemo
+    Left = 8
+    Height = 112
+    Top = 400
+    Width = 968
+    TabOrder = 5
+  end
+  object btnAbout: TButton
+    Left = 991
+    Height = 25
+    Top = 480
+    Width = 91
+    Caption = 'About'
+    OnClick = btnAboutClick
+    TabOrder = 6
+  end
+  object TrackBar1: TTrackBar
+    Left = 989
+    Height = 38
+    Top = 256
+    Width = 94
+    Max = 100
+    Position = 0
+    TabOrder = 7
+  end
+  object chkSize: TCheckBox
+    Left = 984
+    Height = 38
+    Top = 296
+    Width = 98
+    Caption = 'Bigger files'#10'(slow)'
+    TabOrder = 8
+  end
+  object Button1: TButton
+    Left = 991
+    Height = 25
+    Top = 72
+    Width = 92
+    Caption = '&Open'
+    OnClick = Button1Click
+    TabOrder = 9
+  end
+  object LabeledEdit1: TLabeledEdit
+    Left = 989
+    Height = 27
+    Top = 120
+    Width = 92
+    EditLabel.AnchorSideLeft.Control = LabeledEdit1
+    EditLabel.AnchorSideBottom.Control = LabeledEdit1
+    EditLabel.Left = 989
+    EditLabel.Height = 18
+    EditLabel.Top = 99
+    EditLabel.Width = 42
+    EditLabel.Caption = 'Width'
+    EditLabel.ParentColor = False
+    TabOrder = 10
+    OnChange = LabeledEdit1Change
+    OnKeyDown = LabeledEdit1KeyDown
+  end
+  object LabeledEdit2: TLabeledEdit
+    Left = 991
+    Height = 27
+    Top = 168
+    Width = 91
+    EditLabel.AnchorSideLeft.Control = LabeledEdit2
+    EditLabel.AnchorSideBottom.Control = LabeledEdit2
+    EditLabel.Left = 991
+    EditLabel.Height = 18
+    EditLabel.Top = 147
+    EditLabel.Width = 45
+    EditLabel.Caption = 'Height'
+    EditLabel.ParentColor = False
+    TabOrder = 11
+    OnChange = LabeledEdit2Change
+    OnKeyDown = LabeledEdit1KeyDown
+  end
+  object btnResize: TButton
+    Left = 992
+    Height = 25
+    Top = 192
+    Width = 90
+    Caption = 'Resize'
+    OnClick = btnResizeClick
+    TabOrder = 12
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 1200
+    OnTimer = Timer1Timer
+    left = 992
+    top = 120
+  end
+  object OpenPictureDialog1: TOpenPictureDialog
+    left = 1056
+    top = 120
+  end
+end
