@@ -1,0 +1,57 @@
+{ Este es un archivo de recurso de Lazarus generado automáticamente }
+
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#142#0#6'Height'#3#8#2#3'Top'#2'y'#5'Width'
+  +#3'D'#4#13'ActiveControl'#7#10'btnCapture'#7'Caption'#6#10'Pic2Base64'#12'Cl'
+  +'ientHeight'#3#8#2#11'ClientWidth'#3'D'#4#8'OnCreate'#7#10'FormCreate'#9'OnD'
+  +'estroy'#7#11'FormDestroy'#10'LCLVersion'#6#8'0.9.28.2'#0#6'TLabel'#15'lblJp'
+  +'egSettings'#4'Left'#3#216#3#6'Height'#2#18#3'Top'#3#232#0#5'Width'#2'f'#7'C'
+  +'aption'#6#13'JPEG compr %:'#10'DragCursor'#7#11'crHandPoint'#11'ParentColor'
+  +#8#0#0#6'TLabel'#7'lblSize'#4'Left'#3#221#3#6'Height'#2#18#3'Top'#3'p'#1#5'W'
+  +'idth'#2' '#7'Caption'#6#5'Size:'#11'ParentColor'#8#0#0#6'TLabel'#9'lblLengt'
+  +'h'#4'Left'#3#221#3#6'Height'#2#18#3'Top'#3#128#1#5'Width'#2'3'#7'Caption'#6
+  +#7'Length:'#11'ParentColor'#8#0#0#7'TButton'#10'btnCapture'#4'Left'#3#224#3#6
+  +'Height'#2#25#3'Top'#2#8#5'Width'#2'['#7'Caption'#6#8'&Capture'#7'OnClick'#7
+  +#15'btnCaptureClick'#8'TabOrder'#2#0#0#0#7'TButton'#8'btnPaste'#4'Left'#3#224
+  +#3#6'Height'#2#25#3'Top'#2'('#5'Width'#2'['#7'Caption'#6#6'&Pegar'#7'OnClick'
+  +#7#13'btnPasteClick'#8'TabOrder'#2#1#0#0#7'TButton'#10'btnConvert'#4'Left'#3
+  +#221#3#6'Height'#2#25#3'Top'#3'P'#1#5'Width'#2'['#7'Caption'#6#8'2 Base64'#7
+  +'OnClick'#7#15'btnConvertClick'#8'TabOrder'#2#2#0#0#7'TButton'#7'btnCopy'#4
+  +'Left'#3#221#3#6'Height'#2#25#3'Top'#3#168#1#5'Width'#2'['#7'Caption'#6#11'2'
+  +' Clipboard'#7'OnClick'#7#12'btnCopyClick'#8'TabOrder'#2#3#0#0#9'TGroupBox'#9
+  +'GroupBox1'#4'Left'#2#8#6'Height'#3#136#1#3'Top'#2#0#5'Width'#3#200#3#7'Capt'
+  +'ion'#6#7'Picture'#12'ClientHeight'#3'u'#1#11'ClientWidth'#3#196#3#8'TabOrde'
+  +'r'#2#4#0#6'TImage'#6'Image1'#4'Left'#2#6#6'Height'#3'X'#1#3'Top'#2#7#5'Widt'
+  +'h'#3#168#3#11'OnMouseMove'#7#15'Image1MouseMove'#9'OnMouseUp'#7#13'Image1Mo'
+  +'useUp'#0#0#10'TScrollBar'#10'ScrollBar1'#4'Left'#2#6#6'Height'#2#15#3'Top'#3
+  +'_'#1#5'Width'#3#168#3#8'PageSize'#2#0#8'TabOrder'#2#0#8'OnChange'#7#16'Scro'
+  +'llBar1Change'#0#0#10'TScrollBar'#10'ScrollBar2'#4'Left'#3#174#3#6'Height'#3
+  +'Y'#1#3'Top'#2#6#5'Width'#2#15#4'Kind'#7#10'sbVertical'#8'PageSize'#2#0#8'Ta'
+  +'bOrder'#2#1#8'OnChange'#7#16'ScrollBar2Change'#0#0#0#5'TMemo'#5'Memo1'#4'Le'
+  +'ft'#2#8#6'Height'#2'p'#3'Top'#3#144#1#5'Width'#3#200#3#8'TabOrder'#2#5#0#0#7
+  +'TButton'#8'btnAbout'#4'Left'#3#223#3#6'Height'#2#25#3'Top'#3#224#1#5'Width'
+  +#2'['#7'Caption'#6#5'About'#7'OnClick'#7#13'btnAboutClick'#8'TabOrder'#2#6#0
+  +#0#9'TTrackBar'#9'TrackBar1'#4'Left'#3#221#3#6'Height'#2'&'#3'Top'#3#0#1#5'W'
+  +'idth'#2'^'#3'Max'#2'd'#8'Position'#2#0#8'TabOrder'#2#7#0#0#9'TCheckBox'#7'c'
+  +'hkSize'#4'Left'#3#216#3#6'Height'#2'&'#3'Top'#3'('#1#5'Width'#2'b'#7'Captio'
+  +'n'#6#19'Bigger files'#10'(slow)'#8'TabOrder'#2#8#0#0#7'TButton'#7'Button1'#4
+  +'Left'#3#223#3#6'Height'#2#25#3'Top'#2'H'#5'Width'#2'\'#7'Caption'#6#5'&Open'
+  +#7'OnClick'#7#12'Button1Click'#8'TabOrder'#2#9#0#0#12'TLabeledEdit'#12'Label'
+  +'edEdit1'#4'Left'#3#221#3#6'Height'#2#27#3'Top'#2'x'#5'Width'#2'\ EditLabel.'
+  +'AnchorSideLeft.Control'#7#12'LabeledEdit1"EditLabel.AnchorSideBottom.Contro'
+  +'l'#7#12'LabeledEdit1'#14'EditLabel.Left'#3#221#3#16'EditLabel.Height'#2#18
+  +#13'EditLabel.Top'#2'c'#15'EditLabel.Width'#2'*'#17'EditLabel.Caption'#6#5'W'
+  +'idth'#21'EditLabel.ParentColor'#8#8'TabOrder'#2#10#8'OnChange'#7#18'Labeled'
+  +'Edit1Change'#9'OnKeyDown'#7#19'LabeledEdit1KeyDown'#0#0#12'TLabeledEdit'#12
+  +'LabeledEdit2'#4'Left'#3#223#3#6'Height'#2#27#3'Top'#3#168#0#5'Width'#2'[ Ed'
+  +'itLabel.AnchorSideLeft.Control'#7#12'LabeledEdit2"EditLabel.AnchorSideBotto'
+  +'m.Control'#7#12'LabeledEdit2'#14'EditLabel.Left'#3#223#3#16'EditLabel.Heigh'
+  +'t'#2#18#13'EditLabel.Top'#3#147#0#15'EditLabel.Width'#2'-'#17'EditLabel.Cap'
+  +'tion'#6#6'Height'#21'EditLabel.ParentColor'#8#8'TabOrder'#2#11#8'OnChange'#7
+  +#18'LabeledEdit2Change'#9'OnKeyDown'#7#19'LabeledEdit1KeyDown'#0#0#7'TButton'
+  +#9'btnResize'#4'Left'#3#224#3#6'Height'#2#25#3'Top'#3#192#0#5'Width'#2'Z'#7
+  +'Caption'#6#6'Resize'#7'OnClick'#7#14'btnResizeClick'#8'TabOrder'#2#12#0#0#6
+  +'TTimer'#6'Timer1'#7'Enabled'#8#8'Interval'#3#176#4#7'OnTimer'#7#11'Timer1Ti'
+  +'mer'#4'left'#3#224#3#3'top'#2'x'#0#0#18'TOpenPictureDialog'#18'OpenPictureD'
+  +'ialog1'#4'left'#3' '#4#3'top'#2'x'#0#0#0
+]);
